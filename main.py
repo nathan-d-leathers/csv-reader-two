@@ -12,3 +12,17 @@ except Exception:
     print(f"{animal} are not available for adoption")
 
 # adding notes to git
+
+# Code Platoon Solution:
+# import csv
+# animal_type = input("cats or dogs?\n")
+
+# try:
+
+#     data = open(f'./data/{animal_type}.csv')
+#     reader = csv.DictReader(data)
+
+#     for row in reader:
+#         print(f"{row['name']} is a {row['age']} year old {row['breed']}.")
+# except:
+#     print(f"Sorry, we don't have any {animal_type} here.")
