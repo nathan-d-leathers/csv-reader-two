@@ -10,3 +10,5 @@ try:
 
 except Exception:
     print(f"{animal} are not available for adoption")
+
+# adding notes to git
